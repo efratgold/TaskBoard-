@@ -1,0 +1,97 @@
+body {
+  background-image: url("images/tile.jpg");
+  height: 100vh;
+}
+
+h1 {
+  font-family: Bradley Hand, cursive;
+  font-size:80px;
+  text-align : center;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgb(132, 143, 234);
+  margin: 40px;
+}
+           
+form {
+  background-image: url("images/formbg.jpg");
+  margin: auto;
+  font-family: Bradley Hand, cursive;
+  font-size: larger;
+  padding: 15px;
+}
+
+.form-control {
+  background-color: inherit;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  border: 0 solid #ced4da;
+  background-color: inherit;
+}
+
+.note {
+  background-image: url(images/notebg.png);
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  padding: 40px 30px 40px 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  position: relative; 
+}
+
+.btn-close {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+} 
+
+.note:hover .btn-close {
+  display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dateTime {
+  display: block;
+}
+
+.btn-close {
+  background-color: rgb(254, 107, 9);
+  color: white;
+  top: 30px;
+}
+
+.form-label {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contenTask {
+  font-size: 20px;
+  overflow: auto;
+  height: 130px;
+}
+
+.containerNotes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.btn-primary {
+  margin: 15px 10px;
+}
+
+.btn-primary:first-child {
+  margin-right: 0;
+}
